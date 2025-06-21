@@ -1,8 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { ApiService, Recipe } from '../core/api.service';
+import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
+import { RecipeCardComponent } from './recipe-card.component';
 
 @Component({
   selector: 'app-recipes-list',
+  standalone: true,
+  imports: [CommonModule, FormsModule, RecipeCardComponent],
   template: `
     <section>
       <div style="display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap;">

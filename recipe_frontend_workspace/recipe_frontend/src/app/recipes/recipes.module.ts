@@ -9,9 +9,7 @@ import { RecipeCardComponent } from './recipe-card.component';
   imports: [
     CommonModule,
     FormsModule,
-    RecipesRoutingModule
-  ],
-  declarations: [
+    RecipesRoutingModule,
     RecipesListComponent,
     RecipeCardComponent
   ]

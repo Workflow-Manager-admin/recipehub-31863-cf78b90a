@@ -1,5 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { Recipe } from '../core/api.service';
+import { CommonModule } from '@angular/common';
 
 /**
  * Recipe Card UI Component
@@ -11,6 +12,8 @@ import { Recipe } from '../core/api.service';
  */
 @Component({
   selector: 'app-recipe-card',
+  standalone: true,
+  imports: [CommonModule],
   template: `
     <div class="recipe-card" tabindex="0" [attr.aria-label]="'Recipe: ' + (recipe.title || '')">
       <div *ngIf="recipe?.imageUrl" class="thumbnail">
