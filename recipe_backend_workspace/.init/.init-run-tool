@@ -1,0 +1,4 @@
+{
+    "command": "CI=true PORT=<port> HOST=0.0.0.0 npm run dev",
+    "working_directory": "/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_backend_workspace/recipe_backend"
+}
