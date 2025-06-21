@@ -9,68 +9,1618 @@ The "disableHostCheck" option will not be used because it is not supported by th
 Browser bundles     
 Initial chunk files  | Names            |  Raw size
 polyfills.js         | polyfills        |  90.20 kB | 
-main.js              | main             |  22.59 kB | 
+main.js              | main             |  23.21 kB | 
+chunk-YQOESBWP.js    | -                | 754 bytes | 
 styles.css           | styles           |  95 bytes | 
 
-                     | Initial total    | 112.88 kB
+                     | Initial total    | 114.26 kB
+
+Lazy chunk files     | Names            |  Raw size
+chunk-ABAP3UF4.js    | auth-module      |  13.92 kB | 
+chunk-ZCKZQLIX.js    | recipes-module   |   5.08 kB | 
+chunk-PZPJDCYT.js    | -                |   2.95 kB | 
 
 
 Server bundles      
 Initial chunk files  | Names            |  Raw size
 polyfills.server.mjs | polyfills.server | 572.91 kB | 
-chunk-6XEG6CM6.mjs   | -                |  23.02 kB | 
-server.mjs           | server           |   1.39 kB | 
-main.server.mjs      | main.server      | 800 bytes | 
+chunk-S5MUFAEQ.mjs   | -                |  23.65 kB | 
+server.mjs           | server           |   1.42 kB | 
+main.server.mjs      | main.server      | 831 bytes | 
+chunk-FFILDKJJ.mjs   | -                | 788 bytes | 
 
-Application bundle generation complete. [2.056 seconds]
+Lazy chunk files     | Names            |  Raw size
+chunk-YKI7RK33.mjs   | auth-module      |  13.96 kB | 
+chunk-7QLA7KW4.mjs   | recipes-module   |   5.11 kB | 
+chunk-YDX7WRZA.mjs   | -                |   2.99 kB | 
+
+Application bundle generation complete. [2.609 seconds]
 
 Watch mode enabled. Watching for file changes...
 NOTE: Raw file sizes do not reflect development server per-request transformations.
+9:08:01 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+9:08:01 AM [vite] (ssr) Re-optimizing dependencies because vite config has changed
   ➜  Local:   http://localhost:3000/
   ➜  Network: http://172.17.0.2:3000/
+ERROR Error [NullInjectorError]: R3InjectorError(_RecipesModule)[_ApiService -> _ApiService -> _HttpClient -> _HttpClient]: 
+  NullInjectorError: No provider for _HttpClient!
+    at NullInjector.get (/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_frontend_workspace/recipe_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-K6L7TLVU.js:2729:21)
+    at R3Injector.get (/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_frontend_workspace/recipe_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-K6L7TLVU.js:3076:27)
+    at R3Injector.get (/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_frontend_workspace/recipe_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-K6L7TLVU.js:3076:27)
+    at injectInjectorOnly (/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_frontend_workspace/recipe_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-K6L7TLVU.js:2462:41)
+    at Module.ɵɵinject (/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_frontend_workspace/recipe_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-K6L7TLVU.js:2468:59)
+    at Object.ApiService_Factory (/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_frontend_workspace/recipe_frontend/.angular/vite-root/angular/src/app/core/api.service.ts:50:31)
+    at eval (/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_frontend_workspace/recipe_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-K6L7TLVU.js:3177:35)
+    at runInInjectorProfilerContext (/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_frontend_workspace/recipe_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-K6L7TLVU.js:2334:5)
+    at R3Injector.hydrate (/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_frontend_workspace/recipe_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-K6L7TLVU.js:3176:11)
+    at R3Injector.get (/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_frontend_workspace/recipe_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-K6L7TLVU.js:3071:23) {
+  ngTempTokenPath: null,
+  ngTokenPath: [ '_ApiService', '_ApiService', '_HttpClient', '_HttpClient' ]
+}
+ERROR Error [NullInjectorError]: R3InjectorError(_RecipesModule)[_ApiService -> _ApiService -> _HttpClient -> _HttpClient]: 
+  NullInjectorError: No provider for _HttpClient!
+    at NullInjector.get (/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_frontend_workspace/recipe_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-K6L7TLVU.js:2729:21)
+    at R3Injector.get (/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_frontend_workspace/recipe_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-K6L7TLVU.js:3076:27)
+    at R3Injector.get (/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_frontend_workspace/recipe_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-K6L7TLVU.js:3076:27)
+    at injectInjectorOnly (/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_frontend_workspace/recipe_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-K6L7TLVU.js:2462:41)
+    at Module.ɵɵinject (/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_frontend_workspace/recipe_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-K6L7TLVU.js:2468:59)
+    at Object.ApiService_Factory (/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_frontend_workspace/recipe_frontend/.angular/vite-root/angular/src/app/core/api.service.ts:50:31)
+    at eval (/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_frontend_workspace/recipe_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-K6L7TLVU.js:3177:35)
+    at runInInjectorProfilerContext (/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_frontend_workspace/recipe_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-K6L7TLVU.js:2334:5)
+    at R3Injector.hydrate (/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_frontend_workspace/recipe_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-K6L7TLVU.js:3176:11)
+    at R3Injector.get (/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_frontend_workspace/recipe_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-K6L7TLVU.js:3071:23) {
+  ngTempTokenPath: null,
+  ngTokenPath: [ '_ApiService', '_ApiService', '_HttpClient', '_HttpClient' ]
+}
+ERROR Error [NullInjectorError]: R3InjectorError(_RecipesModule)[_ApiService -> _ApiService -> _HttpClient -> _HttpClient]: 
+  NullInjectorError: No provider for _HttpClient!
+    at NullInjector.get (/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_frontend_workspace/recipe_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-K6L7TLVU.js:2729:21)
+    at R3Injector.get (/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_frontend_workspace/recipe_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-K6L7TLVU.js:3076:27)
+    at R3Injector.get (/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_frontend_workspace/recipe_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-K6L7TLVU.js:3076:27)
+    at injectInjectorOnly (/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_frontend_workspace/recipe_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-K6L7TLVU.js:2462:41)
+    at Module.ɵɵinject (/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_frontend_workspace/recipe_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-K6L7TLVU.js:2468:59)
+    at Object.ApiService_Factory (/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_frontend_workspace/recipe_frontend/.angular/vite-root/angular/src/app/core/api.service.ts:50:31)
+    at eval (/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_frontend_workspace/recipe_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-K6L7TLVU.js:3177:35)
+    at runInInjectorProfilerContext (/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_frontend_workspace/recipe_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-K6L7TLVU.js:2334:5)
+    at R3Injector.hydrate (/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_frontend_workspace/recipe_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-K6L7TLVU.js:3176:11)
+    at R3Injector.get (/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_frontend_workspace/recipe_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-K6L7TLVU.js:3071:23) {
+  ngTempTokenPath: null,
+  ngTokenPath: [ '_ApiService', '_ApiService', '_HttpClient', '_HttpClient' ]
+}
+ERROR Error [NullInjectorError]: R3InjectorError(_RecipesModule)[_ApiService -> _ApiService -> _HttpClient -> _HttpClient]: 
+  NullInjectorError: No provider for _HttpClient!
+    at NullInjector.get (/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_frontend_workspace/recipe_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-K6L7TLVU.js:2729:21)
+    at R3Injector.get (/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_frontend_workspace/recipe_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-K6L7TLVU.js:3076:27)
+    at R3Injector.get (/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_frontend_workspace/recipe_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-K6L7TLVU.js:3076:27)
+    at injectInjectorOnly (/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_frontend_workspace/recipe_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-K6L7TLVU.js:2462:41)
+    at Module.ɵɵinject (/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_frontend_workspace/recipe_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-K6L7TLVU.js:2468:59)
+    at Object.ApiService_Factory (/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_frontend_workspace/recipe_frontend/.angular/vite-root/angular/src/app/core/api.service.ts:50:31)
+    at eval (/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_frontend_workspace/recipe_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-K6L7TLVU.js:3177:35)
+    at runInInjectorProfilerContext (/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_frontend_workspace/recipe_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-K6L7TLVU.js:2334:5)
+    at R3Injector.hydrate (/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_frontend_workspace/recipe_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-K6L7TLVU.js:3176:11)
+    at R3Injector.get (/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_frontend_workspace/recipe_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-K6L7TLVU.js:3071:23) {
+  ngTempTokenPath: null,
+  ngTokenPath: [ '_ApiService', '_ApiService', '_HttpClient', '_HttpClient' ]
+}
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Initial chunk files | Names  | Raw size
+styles.css          | styles |  2.57 kB | 
+
+Application bundle generation complete. [0.372 seconds]
+
+Page reload sent to client(s).
+ERROR Error [NullInjectorError]: R3InjectorError(_RecipesModule)[_ApiService -> _ApiService -> _HttpClient -> _HttpClient]: 
+  NullInjectorError: No provider for _HttpClient!
+    at NullInjector.get (/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_frontend_workspace/recipe_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-K6L7TLVU.js:2729:21)
+    at R3Injector.get (/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_frontend_workspace/recipe_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-K6L7TLVU.js:3076:27)
+    at R3Injector.get (/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_frontend_workspace/recipe_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-K6L7TLVU.js:3076:27)
+    at injectInjectorOnly (/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_frontend_workspace/recipe_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-K6L7TLVU.js:2462:41)
+    at Module.ɵɵinject (/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_frontend_workspace/recipe_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-K6L7TLVU.js:2468:59)
+    at Object.ApiService_Factory (/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_frontend_workspace/recipe_frontend/.angular/vite-root/angular/src/app/core/api.service.ts:50:31)
+    at eval (/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_frontend_workspace/recipe_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-K6L7TLVU.js:3177:35)
+    at runInInjectorProfilerContext (/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_frontend_workspace/recipe_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-K6L7TLVU.js:2334:5)
+    at R3Injector.hydrate (/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_frontend_workspace/recipe_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-K6L7TLVU.js:3176:11)
+    at R3Injector.get (/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_frontend_workspace/recipe_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-K6L7TLVU.js:3071:23) {
+  ngTempTokenPath: null,
+  ngTokenPath: [ '_ApiService', '_ApiService', '_HttpClient', '_HttpClient' ]
+}
+ERROR Error [NullInjectorError]: R3InjectorError(_RecipesModule)[_ApiService -> _ApiService -> _HttpClient -> _HttpClient]: 
+  NullInjectorError: No provider for _HttpClient!
+    at NullInjector.get (/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_frontend_workspace/recipe_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-K6L7TLVU.js:2729:21)
+    at R3Injector.get (/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_frontend_workspace/recipe_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-K6L7TLVU.js:3076:27)
+    at R3Injector.get (/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_frontend_workspace/recipe_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-K6L7TLVU.js:3076:27)
+    at injectInjectorOnly (/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_frontend_workspace/recipe_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-K6L7TLVU.js:2462:41)
+    at Module.ɵɵinject (/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_frontend_workspace/recipe_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-K6L7TLVU.js:2468:59)
+    at Object.ApiService_Factory (/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_frontend_workspace/recipe_frontend/.angular/vite-root/angular/src/app/core/api.service.ts:50:31)
+    at eval (/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_frontend_workspace/recipe_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-K6L7TLVU.js:3177:35)
+    at runInInjectorProfilerContext (/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_frontend_workspace/recipe_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-K6L7TLVU.js:2334:5)
+    at R3Injector.hydrate (/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_frontend_workspace/recipe_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-K6L7TLVU.js:3176:11)
+    at R3Injector.get (/home/kavia/workspace/code-generation/recipehub-31863-cf78b90a/recipe_frontend_workspace/recipe_frontend/.angular/cache/19.2.1/angular/vite/deps_ssr/chunk-K6L7TLVU.js:3071:23) {
+  ngTempTokenPath: null,
+  ngTokenPath: [ '_ApiService', '_ApiService', '_HttpClient', '_HttpClient' ]
+}
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.413 seconds]
+
+✘ [ERROR] TS-992010: 'imports' is only valid on a component that is standalone. [plugin angular-compiler]
+
+    src/app/app.component.ts:6:11:
+      6 │   imports: [RouterOutlet],
+        ╵            ~~~~~~~~~~~~~~
+
+  Did you forget to add 'standalone: true' to this @Component?
+
+    src/app/app.component.ts:11:13:
+      11 │ export class AppComponent implements OnInit {
+         ╵              ~~~~~~~~~~~~
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.174 seconds]
+
+✘ [ERROR] TS-992010: 'imports' is only valid on a component that is standalone. [plugin angular-compiler]
+
+    src/app/app.component.ts:6:11:
+      6 │   imports: [RouterOutlet],
+        ╵            ~~~~~~~~~~~~~~
+
+  Did you forget to add 'standalone: true' to this @Component?
+
+    src/app/app.component.ts:11:13:
+      11 │ export class AppComponent implements OnInit {
+         ╵              ~~~~~~~~~~~~
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.465 seconds]
+
+▲ [WARNING] NG8107: The left side of this optional chain operation does not include 'null' or 'undefined' in its type, therefore the '?.' operator can be replaced with the '.' operator. [plugin angular-compiler]
+
+    src/app/recipes/recipe-card.component.ts:18:83:
+      18 │ ...bindex="0" [attr.aria-label]="'Recipe: ' + (recipe?.title || '')">
+         ╵                                                        ~~~~~
+
+
+✘ [ERROR] TS-992010: 'imports' is only valid on a component that is standalone. [plugin angular-compiler]
+
+    src/app/app.component.ts:6:11:
+      6 │   imports: [RouterOutlet],
+        ╵            ~~~~~~~~~~~~~~
+
+  Did you forget to add 'standalone: true' to this @Component?
+
+    src/app/app.component.ts:11:13:
+      11 │ export class AppComponent implements OnInit {
+         ╵              ~~~~~~~~~~~~
+
+
+✘ [ERROR] TS-992010: 'imports' is only valid on a component that is standalone. [plugin angular-compiler]
+
+    src/app/recipes/recipes-list.component.ts:29:11:
+      29 │   imports: [RecipeCardComponent]
+         ╵            ~~~~~~~~~~~~~~~~~~~~~
+
+  Did you forget to add 'standalone: true' to this @Component?
+
+    src/app/recipes/recipes-list.component.ts:31:13:
+      31 │ export class RecipesListComponent implements OnInit {
+         ╵              ~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS7053: Element implicitly has an 'any' type because expression of type '"imageUrl"' can't be used to index type 'Recipe'.
+  Property 'imageUrl' does not exist on type 'Recipe'. [plugin angular-compiler]
+
+    src/app/recipes/recipes-list.component.ts:46:16:
+      46 │       imageUrl: recipe['imageUrl'] ||
+         ╵                 ~~~~~~~~~~~~~~~~~~
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.267 seconds]
+
+▲ [WARNING] NG8107: The left side of this optional chain operation does not include 'null' or 'undefined' in its type, therefore the '?.' operator can be replaced with the '.' operator. [plugin angular-compiler]
+
+    src/app/recipes/recipe-card.component.ts:18:83:
+      18 │ ...bindex="0" [attr.aria-label]="'Recipe: ' + (recipe?.title || '')">
+         ╵                                                        ~~~~~
+
+
+✘ [ERROR] TS-992010: 'imports' is only valid on a component that is standalone. [plugin angular-compiler]
+
+    src/app/app.component.ts:6:11:
+      6 │   imports: [RouterOutlet],
+        ╵            ~~~~~~~~~~~~~~
+
+  Did you forget to add 'standalone: true' to this @Component?
+
+    src/app/app.component.ts:11:13:
+      11 │ export class AppComponent implements OnInit {
+         ╵              ~~~~~~~~~~~~
+
+
+✘ [ERROR] TS-992010: 'imports' is only valid on a component that is standalone. [plugin angular-compiler]
+
+    src/app/recipes/recipes-list.component.ts:29:11:
+      29 │   imports: [RecipeCardComponent]
+         ╵            ~~~~~~~~~~~~~~~~~~~~~
+
+  Did you forget to add 'standalone: true' to this @Component?
+
+    src/app/recipes/recipes-list.component.ts:31:13:
+      31 │ export class RecipesListComponent implements OnInit {
+         ╵              ~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS7053: Element implicitly has an 'any' type because expression of type '"imageUrl"' can't be used to index type 'Recipe'.
+  Property 'imageUrl' does not exist on type 'Recipe'. [plugin angular-compiler]
+
+    src/app/recipes/recipes-list.component.ts:46:16:
+      46 │       imageUrl: recipe['imageUrl'] ||
+         ╵                 ~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] No loader is configured for ".scss" files: src/app/recipes/recipes-list.component.scss
+
+    src/app/recipes/recipes.module.ts:7:7:
+      7 │ import './recipes-list.component.scss';
+        ╵        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] No loader is configured for ".scss" files: src/app/recipes/recipes-list.component.scss
+
+    src/app/recipes/recipes.module.ts:7:7:
+      7 │ import './recipes-list.component.scss';
+        ╵        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.179 seconds]
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/app.component.html:190:11:
+      190 │     <span *ngIf="currentTheme === 'dark'">&#9788; Light mode</span>
+          ╵            ~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:6:15:
+      6 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/app.component.html:191:11:
+      191 │     <span *ngIf="currentTheme === 'light'">&#9790; Dark mode</span>
+          ╵            ~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:6:15:
+      6 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] NG8107: The left side of this optional chain operation does not include 'null' or 'undefined' in its type, therefore the '?.' operator can be replaced with the '.' operator. [plugin angular-compiler]
+
+    src/app/recipes/recipe-card.component.ts:18:83:
+      18 │ ...bindex="0" [attr.aria-label]="'Recipe: ' + (recipe?.title || '')">
+         ╵                                                        ~~~~~
+
+
+✘ [ERROR] NG8001: 'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message. [plugin angular-compiler]
+
+    src/app/app.component.html:195:2:
+      195 │   <router-outlet />
+          ╵   ~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:6:15:
+      6 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS-992010: 'imports' is only valid on a component that is standalone. [plugin angular-compiler]
+
+    src/app/recipes/recipes-list.component.ts:29:11:
+      29 │   imports: [RecipeCardComponent]
+         ╵            ~~~~~~~~~~~~~~~~~~~~~
+
+  Did you forget to add 'standalone: true' to this @Component?
+
+    src/app/recipes/recipes-list.component.ts:31:13:
+      31 │ export class RecipesListComponent implements OnInit {
+         ╵              ~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS7053: Element implicitly has an 'any' type because expression of type '"imageUrl"' can't be used to index type 'Recipe'.
+  Property 'imageUrl' does not exist on type 'Recipe'. [plugin angular-compiler]
+
+    src/app/recipes/recipes-list.component.ts:46:16:
+      46 │       imageUrl: recipe['imageUrl'] ||
+         ╵                 ~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] No loader is configured for ".scss" files: src/app/recipes/recipes-list.component.scss
+
+    src/app/recipes/recipes.module.ts:7:7:
+      7 │ import './recipes-list.component.scss';
+        ╵        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] No loader is configured for ".scss" files: src/app/recipes/recipes-list.component.scss
+
+    src/app/recipes/recipes.module.ts:7:7:
+      7 │ import './recipes-list.component.scss';
+        ╵        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.231 seconds]
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/app.component.html:190:11:
+      190 │     <span *ngIf="currentTheme === 'dark'">&#9788; Light mode</span>
+          ╵            ~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:6:15:
+      6 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/app.component.html:191:11:
+      191 │     <span *ngIf="currentTheme === 'light'">&#9790; Dark mode</span>
+          ╵            ~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:6:15:
+      6 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] NG8107: The left side of this optional chain operation does not include 'null' or 'undefined' in its type, therefore the '?.' operator can be replaced with the '.' operator. [plugin angular-compiler]
+
+    src/app/recipes/recipe-card.component.ts:18:83:
+      18 │ ...bindex="0" [attr.aria-label]="'Recipe: ' + (recipe?.title || '')">
+         ╵                                                        ~~~~~
+
+
+✘ [ERROR] NG8001: 'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message. [plugin angular-compiler]
+
+    src/app/app.component.html:195:2:
+      195 │   <router-outlet />
+          ╵   ~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:6:15:
+      6 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS7053: Element implicitly has an 'any' type because expression of type '"imageUrl"' can't be used to index type 'Recipe'.
+  Property 'imageUrl' does not exist on type 'Recipe'. [plugin angular-compiler]
+
+    src/app/recipes/recipes-list.component.ts:45:16:
+      45 │       imageUrl: recipe['imageUrl'] ||
+         ╵                 ~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] No loader is configured for ".scss" files: src/app/recipes/recipes-list.component.scss
+
+    src/app/recipes/recipes.module.ts:8:7:
+      8 │ import './recipes-list.component.scss';
+        ╵        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] No loader is configured for ".scss" files: src/app/recipes/recipes-list.component.scss
+
+    src/app/recipes/recipes.module.ts:8:7:
+      8 │ import './recipes-list.component.scss';
+        ╵        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.148 seconds]
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/app.component.html:190:11:
+      190 │     <span *ngIf="currentTheme === 'dark'">&#9788; Light mode</span>
+          ╵            ~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:6:15:
+      6 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/app.component.html:191:11:
+      191 │     <span *ngIf="currentTheme === 'light'">&#9790; Dark mode</span>
+          ╵            ~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:6:15:
+      6 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] NG8107: The left side of this optional chain operation does not include 'null' or 'undefined' in its type, therefore the '?.' operator can be replaced with the '.' operator. [plugin angular-compiler]
+
+    src/app/recipes/recipe-card.component.ts:18:83:
+      18 │ ...bindex="0" [attr.aria-label]="'Recipe: ' + (recipe?.title || '')">
+         ╵                                                        ~~~~~
+
+
+✘ [ERROR] NG8001: 'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message. [plugin angular-compiler]
+
+    src/app/app.component.html:195:2:
+      195 │   <router-outlet />
+          ╵   ~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:6:15:
+      6 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS7053: Element implicitly has an 'any' type because expression of type '"imageUrl"' can't be used to index type 'Recipe'.
+  Property 'imageUrl' does not exist on type 'Recipe'. [plugin angular-compiler]
+
+    src/app/recipes/recipes-list.component.ts:45:16:
+      45 │       imageUrl: recipe['imageUrl'] ||
+         ╵                 ~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS-996008: Component RecipesListComponent is standalone, and cannot be declared in an NgModule. Did you mean to import it instead? [plugin angular-compiler]
+
+    src/app/recipes/recipes.module.ts:16:4:
+      16 │     RecipesListComponent
+         ╵     ~~~~~~~~~~~~~~~~~~~~
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.205 seconds]
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/app.component.html:190:11:
+      190 │     <span *ngIf="currentTheme === 'dark'">&#9788; Light mode</span>
+          ╵            ~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:6:15:
+      6 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/app.component.html:191:11:
+      191 │     <span *ngIf="currentTheme === 'light'">&#9790; Dark mode</span>
+          ╵            ~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:6:15:
+      6 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] NG8107: The left side of this optional chain operation does not include 'null' or 'undefined' in its type, therefore the '?.' operator can be replaced with the '.' operator. [plugin angular-compiler]
+
+    src/app/recipes/recipe-card.component.ts:18:83:
+      18 │ ...bindex="0" [attr.aria-label]="'Recipe: ' + (recipe?.title || '')">
+         ╵                                                        ~~~~~
+
+
+✘ [ERROR] NG8001: 'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message. [plugin angular-compiler]
+
+    src/app/app.component.html:195:2:
+      195 │   <router-outlet />
+          ╵   ~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:6:15:
+      6 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS7053: Element implicitly has an 'any' type because expression of type '"imageUrl"' can't be used to index type 'Recipe'.
+  Property 'imageUrl' does not exist on type 'Recipe'. [plugin angular-compiler]
+
+    src/app/recipes/recipes-list.component.ts:45:16:
+      45 │       imageUrl: recipe['imageUrl'] ||
+         ╵                 ~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS-996008: Component RecipesListComponent is standalone, and cannot be declared in an NgModule. Did you mean to import it instead? [plugin angular-compiler]
+
+    src/app/recipes/recipes.module.ts:16:4:
+      16 │     RecipesListComponent
+         ╵     ~~~~~~~~~~~~~~~~~~~~
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.128 seconds]
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/app.component.html:190:11:
+      190 │     <span *ngIf="currentTheme === 'dark'">&#9788; Light mode</span>
+          ╵            ~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:6:15:
+      6 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/app.component.html:191:11:
+      191 │     <span *ngIf="currentTheme === 'light'">&#9790; Dark mode</span>
+          ╵            ~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:6:15:
+      6 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] NG8107: The left side of this optional chain operation does not include 'null' or 'undefined' in its type, therefore the '?.' operator can be replaced with the '.' operator. [plugin angular-compiler]
+
+    src/app/recipes/recipe-card.component.ts:18:83:
+      18 │ ...bindex="0" [attr.aria-label]="'Recipe: ' + (recipe?.title || '')">
+         ╵                                                        ~~~~~
+
+
+✘ [ERROR] NG8001: 'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message. [plugin angular-compiler]
+
+    src/app/app.component.html:195:2:
+      195 │   <router-outlet />
+          ╵   ~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:6:15:
+      6 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS-996008: Component RecipesListComponent is standalone, and cannot be declared in an NgModule. Did you mean to import it instead? [plugin angular-compiler]
+
+    src/app/recipes/recipes.module.ts:16:4:
+      16 │     RecipesListComponent
+         ╵     ~~~~~~~~~~~~~~~~~~~~
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.202 seconds]
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/app.component.html:190:11:
+      190 │     <span *ngIf="currentTheme === 'dark'">&#9788; Light mode</span>
+          ╵            ~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:6:15:
+      6 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/app.component.html:191:11:
+      191 │     <span *ngIf="currentTheme === 'light'">&#9790; Dark mode</span>
+          ╵            ~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:6:15:
+      6 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] NG8107: The left side of this optional chain operation does not include 'null' or 'undefined' in its type, therefore the '?.' operator can be replaced with the '.' operator. [plugin angular-compiler]
+
+    src/app/recipes/recipe-card.component.ts:19:83:
+      19 │ ...bindex="0" [attr.aria-label]="'Recipe: ' + (recipe?.title || '')">
+         ╵                                                        ~~~~~
+
+
+✘ [ERROR] NG8001: 'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message. [plugin angular-compiler]
+
+    src/app/app.component.html:195:2:
+      195 │   <router-outlet />
+          ╵   ~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:6:15:
+      6 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS1117: An object literal cannot have multiple properties with the same name. [plugin angular-compiler]
+
+    src/app/recipes/recipe-card.component.ts:38:2:
+      38 │   styleUrls: ['./recipe-card.component.scss']
+         ╵   ~~~~~~~~~
+
+
+✘ [ERROR] TS-996008: Component RecipesListComponent is standalone, and cannot be declared in an NgModule. Did you mean to import it instead? [plugin angular-compiler]
+
+    src/app/recipes/recipes.module.ts:16:4:
+      16 │     RecipesListComponent
+         ╵     ~~~~~~~~~~~~~~~~~~~~
+
+
 ❯ Changes detected. Rebuilding...
 ✔ Changes detected. Rebuilding...
 Application bundle generation failed. [0.313 seconds]
 
-✘ [ERROR] Could not resolve "./auth/auth.module"
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
 
-    src/app/app.routes.ts:4:35:
-      4 │ ...hildren: () => import('./auth/auth.module').then(m => m.AuthModu...
-        ╵                          ~~~~~~~~~~~~~~~~~~~~
+    src/app/app.component.html:190:11:
+      190 │     <span *ngIf="currentTheme === 'dark'">&#9788; Light mode</span>
+          ╵            ~~~~
 
+  Error occurs in the template of component AppComponent.
 
-✘ [ERROR] TS2307: Cannot find module './auth/auth.module' or its corresponding type declarations. [plugin angular-compiler]
-
-    src/app/app.routes.ts:7:13:
-      7 │       import('./auth/auth.module').then(m => m.AuthModule),
-        ╵              ~~~~~~~~~~~~~~~~~~~~
-
-
-✘ [ERROR] Could not resolve "./recipes/recipes.module"
-
-    src/app/app.routes.ts:9:35:
-      9 │ ...dren: () => import('./recipes/recipes.module').then(m => m.Recip...
-        ╵                       ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/app.component.ts:6:15:
+      6 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
 
 
-✘ [ERROR] TS2307: Cannot find module './recipes/recipes.module' or its corresponding type declarations. [plugin angular-compiler]
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
 
-    src/app/app.routes.ts:13:13:
-      13 │       import('./recipes/recipes.module').then(m => m.RecipesModule),
-         ╵              ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/app.component.html:191:11:
+      191 │     <span *ngIf="currentTheme === 'light'">&#9790; Dark mode</span>
+          ╵            ~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:6:15:
+      6 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
 
 
-✘ [ERROR] Could not resolve "./auth/auth.module"
+▲ [WARNING] NG8107: The left side of this optional chain operation does not include 'null' or 'undefined' in its type, therefore the '?.' operator can be replaced with the '.' operator. [plugin angular-compiler]
 
-    src/app/app.routes.ts:4:35:
-      4 │ ...hildren: () => import('./auth/auth.module').then(m => m.AuthModu...
-        ╵                          ~~~~~~~~~~~~~~~~~~~~
+    src/app/recipes/recipe-card.component.ts:18:83:
+      18 │ ...bindex="0" [attr.aria-label]="'Recipe: ' + (recipe?.title || '')">
+         ╵                                                        ~~~~~
 
 
-✘ [ERROR] Could not resolve "./recipes/recipes.module"
+✘ [ERROR] NG8001: 'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message. [plugin angular-compiler]
 
-    src/app/app.routes.ts:9:35:
-      9 │ ...dren: () => import('./recipes/recipes.module').then(m => m.Recip...
-        ╵                       ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/app.component.html:195:2:
+      195 │   <router-outlet />
+          ╵   ~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:6:15:
+      6 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS-996008: Component RecipesListComponent is standalone, and cannot be declared in an NgModule. Did you mean to import it instead? [plugin angular-compiler]
+
+    src/app/recipes/recipes.module.ts:16:4:
+      16 │     RecipesListComponent
+         ╵     ~~~~~~~~~~~~~~~~~~~~
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.340 seconds]
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/app.component.html:190:11:
+      190 │     <span *ngIf="currentTheme === 'dark'">&#9788; Light mode</span>
+          ╵            ~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:6:15:
+      6 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/app.component.html:191:11:
+      191 │     <span *ngIf="currentTheme === 'light'">&#9790; Dark mode</span>
+          ╵            ~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:6:15:
+      6 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] NG8107: The left side of this optional chain operation does not include 'null' or 'undefined' in its type, therefore the '?.' operator can be replaced with the '.' operator. [plugin angular-compiler]
+
+    src/app/recipes/recipe-card.component.ts:18:83:
+      18 │ ...bindex="0" [attr.aria-label]="'Recipe: ' + (recipe?.title || '')">
+         ╵                                                        ~~~~~
+
+
+✘ [ERROR] NG8001: 'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message. [plugin angular-compiler]
+
+    src/app/app.component.html:195:2:
+      195 │   <router-outlet />
+          ╵   ~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:6:15:
+      6 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS-996008: Component RecipesListComponent is standalone, and cannot be declared in an NgModule. Did you mean to import it instead? [plugin angular-compiler]
+
+    src/app/recipes/recipes.module.ts:16:4:
+      16 │     RecipesListComponent
+         ╵     ~~~~~~~~~~~~~~~~~~~~
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.115 seconds]
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/app.component.html:190:11:
+      190 │     <span *ngIf="currentTheme === 'dark'">&#9788; Light mode</span>
+          ╵            ~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:6:15:
+      6 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/app.component.html:191:11:
+      191 │     <span *ngIf="currentTheme === 'light'">&#9790; Dark mode</span>
+          ╵            ~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:6:15:
+      6 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] NG8107: The left side of this optional chain operation does not include 'null' or 'undefined' in its type, therefore the '?.' operator can be replaced with the '.' operator. [plugin angular-compiler]
+
+    src/app/recipes/recipe-card.component.ts:18:83:
+      18 │ ...bindex="0" [attr.aria-label]="'Recipe: ' + (recipe?.title || '')">
+         ╵                                                        ~~~~~
+
+
+✘ [ERROR] NG8001: 'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message. [plugin angular-compiler]
+
+    src/app/app.component.html:195:2:
+      195 │   <router-outlet />
+          ╵   ~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:6:15:
+      6 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS-996008: Component RecipesListComponent is standalone, and cannot be declared in an NgModule. Did you mean to import it instead? [plugin angular-compiler]
+
+    src/app/recipes/recipes.module.ts:16:4:
+      16 │     RecipesListComponent
+         ╵     ~~~~~~~~~~~~~~~~~~~~
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.136 seconds]
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/app.component.html:190:11:
+      190 │     <span *ngIf="currentTheme === 'dark'">&#9788; Light mode</span>
+          ╵            ~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:6:15:
+      6 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/app.component.html:191:11:
+      191 │     <span *ngIf="currentTheme === 'light'">&#9790; Dark mode</span>
+          ╵            ~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:6:15:
+      6 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] NG8107: The left side of this optional chain operation does not include 'null' or 'undefined' in its type, therefore the '?.' operator can be replaced with the '.' operator. [plugin angular-compiler]
+
+    src/app/recipes/recipe-card.component.ts:18:83:
+      18 │ ...bindex="0" [attr.aria-label]="'Recipe: ' + (recipe?.title || '')">
+         ╵                                                        ~~~~~
+
+
+✘ [ERROR] NG8001: 'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message. [plugin angular-compiler]
+
+    src/app/app.component.html:195:2:
+      195 │   <router-outlet />
+          ╵   ~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:6:15:
+      6 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS-996008: Component RecipesListComponent is standalone, and cannot be declared in an NgModule. Did you mean to import it instead? [plugin angular-compiler]
+
+    src/app/recipes/recipes.module.ts:15:4:
+      15 │     RecipesListComponent
+         ╵     ~~~~~~~~~~~~~~~~~~~~
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.195 seconds]
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/app.component.html:190:11:
+      190 │     <span *ngIf="currentTheme === 'dark'">&#9788; Light mode</span>
+          ╵            ~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:5:15:
+      5 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/app.component.html:191:11:
+      191 │     <span *ngIf="currentTheme === 'light'">&#9790; Dark mode</span>
+          ╵            ~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:5:15:
+      5 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] NG8107: The left side of this optional chain operation does not include 'null' or 'undefined' in its type, therefore the '?.' operator can be replaced with the '.' operator. [plugin angular-compiler]
+
+    src/app/recipes/recipe-card.component.ts:18:83:
+      18 │ ...bindex="0" [attr.aria-label]="'Recipe: ' + (recipe?.title || '')">
+         ╵                                                        ~~~~~
+
+
+✘ [ERROR] NG8001: 'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message. [plugin angular-compiler]
+
+    src/app/app.component.html:195:2:
+      195 │   <router-outlet />
+          ╵   ~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:5:15:
+      5 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS-996008: Component RecipesListComponent is standalone, and cannot be declared in an NgModule. Did you mean to import it instead? [plugin angular-compiler]
+
+    src/app/recipes/recipes.module.ts:15:4:
+      15 │     RecipesListComponent
+         ╵     ~~~~~~~~~~~~~~~~~~~~
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.111 seconds]
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/app.component.html:190:11:
+      190 │     <span *ngIf="currentTheme === 'dark'">&#9788; Light mode</span>
+          ╵            ~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:5:15:
+      5 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/app.component.html:191:11:
+      191 │     <span *ngIf="currentTheme === 'light'">&#9790; Dark mode</span>
+          ╵            ~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:5:15:
+      5 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] NG8107: The left side of this optional chain operation does not include 'null' or 'undefined' in its type, therefore the '?.' operator can be replaced with the '.' operator. [plugin angular-compiler]
+
+    src/app/recipes/recipe-card.component.ts:18:83:
+      18 │ ...bindex="0" [attr.aria-label]="'Recipe: ' + (recipe?.title || '')">
+         ╵                                                        ~~~~~
+
+
+✘ [ERROR] NG8001: 'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message. [plugin angular-compiler]
+
+    src/app/app.component.html:195:2:
+      195 │   <router-outlet />
+          ╵   ~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:5:15:
+      5 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS-996008: Component RecipesListComponent is standalone, and cannot be declared in an NgModule. Did you mean to import it instead? [plugin angular-compiler]
+
+    src/app/recipes/recipes.module.ts:15:4:
+      15 │     RecipesListComponent
+         ╵     ~~~~~~~~~~~~~~~~~~~~
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.093 seconds]
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/app.component.html:190:11:
+      190 │     <span *ngIf="currentTheme === 'dark'">&#9788; Light mode</span>
+          ╵            ~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:5:15:
+      5 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/app.component.html:191:11:
+      191 │     <span *ngIf="currentTheme === 'light'">&#9790; Dark mode</span>
+          ╵            ~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:5:15:
+      5 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] NG8107: The left side of this optional chain operation does not include 'null' or 'undefined' in its type, therefore the '?.' operator can be replaced with the '.' operator. [plugin angular-compiler]
+
+    src/app/recipes/recipe-card.component.ts:18:83:
+      18 │ ...bindex="0" [attr.aria-label]="'Recipe: ' + (recipe?.title || '')">
+         ╵                                                        ~~~~~
+
+
+✘ [ERROR] NG8001: 'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message. [plugin angular-compiler]
+
+    src/app/app.component.html:195:2:
+      195 │   <router-outlet />
+          ╵   ~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:5:15:
+      5 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS-996008: Component RecipesListComponent is standalone, and cannot be declared in an NgModule. Did you mean to import it instead? [plugin angular-compiler]
+
+    src/app/recipes/recipes.module.ts:15:4:
+      15 │     RecipesListComponent
+         ╵     ~~~~~~~~~~~~~~~~~~~~
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.142 seconds]
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/app.component.html:190:11:
+      190 │     <span *ngIf="currentTheme === 'dark'">&#9788; Light mode</span>
+          ╵            ~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:5:15:
+      5 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/app.component.html:191:11:
+      191 │     <span *ngIf="currentTheme === 'light'">&#9790; Dark mode</span>
+          ╵            ~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:5:15:
+      5 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] NG8107: The left side of this optional chain operation does not include 'null' or 'undefined' in its type, therefore the '?.' operator can be replaced with the '.' operator. [plugin angular-compiler]
+
+    src/app/recipes/recipe-card.component.ts:18:83:
+      18 │ ...bindex="0" [attr.aria-label]="'Recipe: ' + (recipe?.title || '')">
+         ╵                                                        ~~~~~
+
+
+✘ [ERROR] NG8001: 'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message. [plugin angular-compiler]
+
+    src/app/app.component.html:195:2:
+      195 │   <router-outlet />
+          ╵   ~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:5:15:
+      5 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS-996008: Component RecipesListComponent is standalone, and cannot be declared in an NgModule. Did you mean to import it instead? [plugin angular-compiler]
+
+    src/app/recipes/recipes.module.ts:15:4:
+      15 │     RecipesListComponent
+         ╵     ~~~~~~~~~~~~~~~~~~~~
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.085 seconds]
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/app.component.html:190:11:
+      190 │     <span *ngIf="currentTheme === 'dark'">&#9788; Light mode</span>
+          ╵            ~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:5:15:
+      5 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/app.component.html:191:11:
+      191 │     <span *ngIf="currentTheme === 'light'">&#9790; Dark mode</span>
+          ╵            ~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:5:15:
+      5 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] NG8107: The left side of this optional chain operation does not include 'null' or 'undefined' in its type, therefore the '?.' operator can be replaced with the '.' operator. [plugin angular-compiler]
+
+    src/app/recipes/recipe-card.component.ts:18:83:
+      18 │ ...bindex="0" [attr.aria-label]="'Recipe: ' + (recipe?.title || '')">
+         ╵                                                        ~~~~~
+
+
+✘ [ERROR] NG8001: 'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message. [plugin angular-compiler]
+
+    src/app/app.component.html:195:2:
+      195 │   <router-outlet />
+          ╵   ~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:5:15:
+      5 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS-996008: Component RecipesListComponent is standalone, and cannot be declared in an NgModule. Did you mean to import it instead? [plugin angular-compiler]
+
+    src/app/recipes/recipes.module.ts:15:4:
+      15 │     RecipesListComponent,
+         ╵     ~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS-996008: Component RecipeCardComponent is standalone, and cannot be declared in an NgModule. Did you mean to import it instead? [plugin angular-compiler]
+
+    src/app/recipes/recipes.module.ts:16:4:
+      16 │     RecipeCardComponent
+         ╵     ~~~~~~~~~~~~~~~~~~~
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.121 seconds]
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/app.component.html:190:11:
+      190 │     <span *ngIf="currentTheme === 'dark'">&#9788; Light mode</span>
+          ╵            ~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:5:15:
+      5 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/app.component.html:191:11:
+      191 │     <span *ngIf="currentTheme === 'light'">&#9790; Dark mode</span>
+          ╵            ~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:5:15:
+      5 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] NG8107: The left side of this optional chain operation does not include 'null' or 'undefined' in its type, therefore the '?.' operator can be replaced with the '.' operator. [plugin angular-compiler]
+
+    src/app/recipes/recipe-card.component.ts:18:83:
+      18 │ ...bindex="0" [attr.aria-label]="'Recipe: ' + (recipe?.title || '')">
+         ╵                                                        ~~~~~
+
+
+✘ [ERROR] NG8001: 'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message. [plugin angular-compiler]
+
+    src/app/app.component.html:195:2:
+      195 │   <router-outlet />
+          ╵   ~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:5:15:
+      5 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS-996008: Component RecipesListComponent is standalone, and cannot be declared in an NgModule. Did you mean to import it instead? [plugin angular-compiler]
+
+    src/app/recipes/recipes.module.ts:15:4:
+      15 │     RecipesListComponent,
+         ╵     ~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS-996008: Component RecipeCardComponent is standalone, and cannot be declared in an NgModule. Did you mean to import it instead? [plugin angular-compiler]
+
+    src/app/recipes/recipes.module.ts:16:4:
+      16 │     RecipeCardComponent
+         ╵     ~~~~~~~~~~~~~~~~~~~
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.071 seconds]
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/app.component.html:190:11:
+      190 │     <span *ngIf="currentTheme === 'dark'">&#9788; Light mode</span>
+          ╵            ~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:5:15:
+      5 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/app.component.html:191:11:
+      191 │     <span *ngIf="currentTheme === 'light'">&#9790; Dark mode</span>
+          ╵            ~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:5:15:
+      5 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] NG8107: The left side of this optional chain operation does not include 'null' or 'undefined' in its type, therefore the '?.' operator can be replaced with the '.' operator. [plugin angular-compiler]
+
+    src/app/recipes/recipe-card.component.ts:18:83:
+      18 │ ...bindex="0" [attr.aria-label]="'Recipe: ' + (recipe?.title || '')">
+         ╵                                                        ~~~~~
+
+
+✘ [ERROR] NG8001: 'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message. [plugin angular-compiler]
+
+    src/app/app.component.html:195:2:
+      195 │   <router-outlet />
+          ╵   ~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:5:15:
+      5 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.122 seconds]
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/app.component.html:190:11:
+      190 │     <span *ngIf="currentTheme === 'dark'">&#9788; Light mode</span>
+          ╵            ~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:5:15:
+      5 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/app.component.html:191:11:
+      191 │     <span *ngIf="currentTheme === 'light'">&#9790; Dark mode</span>
+          ╵            ~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:5:15:
+      5 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG8001: 'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message. [plugin angular-compiler]
+
+    src/app/app.component.html:195:2:
+      195 │   <router-outlet />
+          ╵   ~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:5:15:
+      5 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.245 seconds]
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/app.component.html:190:11:
+      190 │     <span *ngIf="currentTheme === 'dark'">&#9788; Light mode</span>
+          ╵            ~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:5:15:
+      5 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/app.component.html:191:11:
+      191 │     <span *ngIf="currentTheme === 'light'">&#9790; Dark mode</span>
+          ╵            ~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:5:15:
+      5 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG8001: 'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message. [plugin angular-compiler]
+
+    src/app/app.component.html:195:2:
+      195 │   <router-outlet />
+          ╵   ~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:5:15:
+      5 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.250 seconds]
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/app.component.html:190:11:
+      190 │     <span *ngIf="currentTheme === 'dark'">&#9788; Light mode</span>
+          ╵            ~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:5:15:
+      5 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/app.component.html:191:11:
+      191 │     <span *ngIf="currentTheme === 'light'">&#9790; Dark mode</span>
+          ╵            ~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:5:15:
+      5 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG8001: 'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message. [plugin angular-compiler]
+
+    src/app/app.component.html:195:2:
+      195 │   <router-outlet />
+          ╵   ~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:5:15:
+      5 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.154 seconds]
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/app.component.html:190:11:
+      190 │     <span *ngIf="currentTheme === 'dark'">&#9788; Light mode</span>
+          ╵            ~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:5:15:
+      5 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/app.component.html:191:11:
+      191 │     <span *ngIf="currentTheme === 'light'">&#9790; Dark mode</span>
+          ╵            ~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:5:15:
+      5 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG8001: 'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message. [plugin angular-compiler]
+
+    src/app/app.component.html:195:2:
+      195 │   <router-outlet />
+          ╵   ~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:5:15:
+      5 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.084 seconds]
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/app.component.html:190:11:
+      190 │     <span *ngIf="currentTheme === 'dark'">&#9788; Light mode</span>
+          ╵            ~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:5:15:
+      5 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/app.component.html:191:11:
+      191 │     <span *ngIf="currentTheme === 'light'">&#9790; Dark mode</span>
+          ╵            ~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:5:15:
+      5 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG8001: 'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message. [plugin angular-compiler]
+
+    src/app/app.component.html:195:2:
+      195 │   <router-outlet />
+          ╵   ~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:5:15:
+      5 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.124 seconds]
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/app.component.html:190:11:
+      190 │     <span *ngIf="currentTheme === 'dark'">&#9788; Light mode</span>
+          ╵            ~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:5:15:
+      5 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
+
+    src/app/app.component.html:191:11:
+      191 │     <span *ngIf="currentTheme === 'light'">&#9790; Dark mode</span>
+          ╵            ~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:5:15:
+      5 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] NG8001: 'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is included in the '@Component.imports' of this component.
+2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message. [plugin angular-compiler]
+
+    src/app/app.component.html:195:2:
+      195 │   <router-outlet />
+          ╵   ~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component AppComponent.
+
+    src/app/app.component.ts:5:15:
+      5 │   templateUrl: './app.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~
 
 

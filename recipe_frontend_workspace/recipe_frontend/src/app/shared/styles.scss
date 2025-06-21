@@ -1,67 +1,110 @@
-$primary: #4caf50;
-$accent: #e91e63;
-$secondary: #ffc107;
-$background: #f7fafc;
-$text: #1a202c;
-$gray-light: #f1f1f1;
-$gray-border: #eaeaea;
+/* Theme CSS-variables for color palette */
+:root {
+  --primary: #4caf50;
+  --accent: #e91e63;
+  --secondary: #ffc107;
+  --background: #f7fafc;
+  --text: #1a202c;
+  --gray-light: #f1f1f1;
+  --gray-border: #eaeaea;
+  --card-bg: #fff;
+  --card-bg-hover: #fafafb;
+  --card-title: #283342;
+  --card-desc: #646b7b;
+  --chip-bg: #f7faff;
+  --chip-text: #4caf50;
+  --input-bg: #fff;
+  --input-text: #222;
+  --input-border: #eaeaea;
+  --button-bg: var(--primary);
+  --button-bg-hover: var(--accent);
+  --button-text: #fff;
+  --shadow-card: 0 2px 8px 0 #0002;
+}
+
+:root[data-theme='dark'] {
+  --primary: #67ec9c;
+  --accent: #fc62bd;
+  --secondary: #ffe07a;
+  --background: #16181d;
+  --text: #f9fafc;
+  --gray-light: #23252d;
+  --gray-border: #35373c;
+  --card-bg: #191c23;
+  --card-bg-hover: #252834;
+  --card-title: #f3faf5;
+  --card-desc: #bfc2ca;
+  --chip-bg: #222531;
+  --chip-text: #b6e49f;
+  --input-bg: #20222b;
+  --input-text: #e2e7eb;
+  --input-border: #3b414a;
+  --button-bg: var(--primary);
+  --button-bg-hover: var(--accent);
+  --button-text: #101316;
+  --shadow-card: 0 2px 14px 0 rgba(0,0,0,0.22);
+}
 
 body, html {
-  background: $background;
-  color: $text;
+  background: var(--background);
+  color: var(--text);
   font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
   margin: 0;
   padding: 0;
+  transition: background 0.18s, color 0.18s;
 }
 a {
-  color: $primary;
+  color: var(--primary);
   transition: color 0.2s;
   text-decoration: none;
   &:hover {
-    color: $accent;
+    color: var(--accent);
   }
 }
 .button {
-  background: $primary;
-  color: white;
+  background: var(--button-bg);
+  color: var(--button-text);
   border: none;
   border-radius: .25rem;
   padding: .5rem 1.1rem;
   cursor: pointer;
   font-weight: 500;
   transition: background 0.2s;
-  &:hover {
-    background: $accent;
+  &:hover, &:focus {
+    background: var(--button-bg-hover);
   }
 }
 input, textarea, select {
-  border: 1px solid $gray-border;
+  border: 1px solid var(--input-border);
   border-radius: 0.25rem;
   padding: 0.6rem;
   width: 100%;
   margin: 0.2rem 0 1rem 0;
   font-size: 1rem;
   font-family: inherit;
-  background: #fff;
+  background: var(--input-bg);
+  color: var(--input-text);
+  transition: background 0.19s, color 0.19s;
 }
 .card {
-  background: #fff;
+  background: var(--card-bg);
   border-radius: 0.5rem;
   padding: 1.2rem;
-  box-shadow: 0 2px 8px 0 #0002;
+  box-shadow: var(--shadow-card);
   margin-bottom: 1.3rem;
+  transition: background 0.19s;
 }
 h2, h3, h4 {
-  color: $primary;
+  color: var(--primary);
 }
 nav {
-  background: #fff;
-  border-bottom: 1px solid $gray-border;
+  background: var(--card-bg);
+  border-bottom: 1px solid var(--gray-border);
   margin-bottom: 1.2rem;
 }
 .sidebar {
-  background: $gray-light;
-  border-right: 1px solid $gray-border;
+  background: var(--gray-light);
+  border-right: 1px solid var(--gray-border);
   min-width: 180px;
   padding: 2rem 1rem 1rem 1rem;
 }
