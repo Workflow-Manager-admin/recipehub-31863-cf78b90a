@@ -1,0 +1,67 @@
+$primary: #4caf50;
+$accent: #e91e63;
+$secondary: #ffc107;
+$background: #f7fafc;
+$text: #1a202c;
+$gray-light: #f1f1f1;
+$gray-border: #eaeaea;
+
+body, html {
+  background: $background;
+  color: $text;
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: $primary;
+  transition: color 0.2s;
+  text-decoration: none;
+  &:hover {
+    color: $accent;
+  }
+}
+.button {
+  background: $primary;
+  color: white;
+  border: none;
+  border-radius: .25rem;
+  padding: .5rem 1.1rem;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.2s;
+  &:hover {
+    background: $accent;
+  }
+}
+input, textarea, select {
+  border: 1px solid $gray-border;
+  border-radius: 0.25rem;
+  padding: 0.6rem;
+  width: 100%;
+  margin: 0.2rem 0 1rem 0;
+  font-size: 1rem;
+  font-family: inherit;
+  background: #fff;
+}
+.card {
+  background: #fff;
+  border-radius: 0.5rem;
+  padding: 1.2rem;
+  box-shadow: 0 2px 8px 0 #0002;
+  margin-bottom: 1.3rem;
+}
+h2, h3, h4 {
+  color: $primary;
+}
+nav {
+  background: #fff;
+  border-bottom: 1px solid $gray-border;
+  margin-bottom: 1.2rem;
+}
+.sidebar {
+  background: $gray-light;
+  border-right: 1px solid $gray-border;
+  min-width: 180px;
+  padding: 2rem 1rem 1rem 1rem;
+}

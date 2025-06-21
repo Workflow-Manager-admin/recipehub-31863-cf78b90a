@@ -28,3 +28,49 @@ Watch mode enabled. Watching for file changes...
 NOTE: Raw file sizes do not reflect development server per-request transformations.
   ➜  Local:   http://localhost:3000/
   ➜  Network: http://172.17.0.2:3000/
+❯ Changes detected. Rebuilding...
+✔ Changes detected. Rebuilding...
+Application bundle generation failed. [0.313 seconds]
+
+✘ [ERROR] Could not resolve "./auth/auth.module"
+
+    src/app/app.routes.ts:4:35:
+      4 │ ...hildren: () => import('./auth/auth.module').then(m => m.AuthModu...
+        ╵                          ~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2307: Cannot find module './auth/auth.module' or its corresponding type declarations. [plugin angular-compiler]
+
+    src/app/app.routes.ts:7:13:
+      7 │       import('./auth/auth.module').then(m => m.AuthModule),
+        ╵              ~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] Could not resolve "./recipes/recipes.module"
+
+    src/app/app.routes.ts:9:35:
+      9 │ ...dren: () => import('./recipes/recipes.module').then(m => m.Recip...
+        ╵                       ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] TS2307: Cannot find module './recipes/recipes.module' or its corresponding type declarations. [plugin angular-compiler]
+
+    src/app/app.routes.ts:13:13:
+      13 │       import('./recipes/recipes.module').then(m => m.RecipesModule),
+         ╵              ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] Could not resolve "./auth/auth.module"
+
+    src/app/app.routes.ts:4:35:
+      4 │ ...hildren: () => import('./auth/auth.module').then(m => m.AuthModu...
+        ╵                          ~~~~~~~~~~~~~~~~~~~~
+
+
+✘ [ERROR] Could not resolve "./recipes/recipes.module"
+
+    src/app/app.routes.ts:9:35:
+      9 │ ...dren: () => import('./recipes/recipes.module').then(m => m.Recip...
+        ╵                       ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
